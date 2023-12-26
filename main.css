@@ -120,14 +120,11 @@ body {
   position: relative;
 }
 
-.hero-section::before {
-  position: absolute;
+.insure-section {
   background-image: url("./images/backgroundline.svg");
-  content: "";
-  z-index: 4;
   background-repeat: no-repeat;
   background-size: 697px 649px;
-  background-position: calc(50%) calc(50%);
+  background-position: calc(50% - 845px) calc(50% );
 }
 
 .hero {
